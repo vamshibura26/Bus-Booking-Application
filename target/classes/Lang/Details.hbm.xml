@@ -1,0 +1,21 @@
+<?xml version="1.0"?>
+<!DOCTYPE hibernate-mapping PUBLIC "-//Hibernate/Hibernate Mapping DTD 3.0//EN"
+"http://hibernate.sourceforge.net/hibernate-mapping-3.0.dtd">
+<!-- Generated May 22, 2020 5:01:54 PM by Hibernate Tools 3.5.0.Final -->
+<hibernate-mapping>
+    <class name="Lang.Details" table="DETAILS">
+        <id name="Id" type="java.lang.Long" access="field">
+            <column name="ID" />
+            <generator class="assigned" />
+        </id>
+        <property name="Passenger_Name" type="java.lang.String">
+            <column name="PASSENGER_NAME" />
+        </property>
+        <property name="Phone_No" type="java.lang.String">
+            <column name="PHONE_NO" />
+        </property>
+        <property name="Email_id" type="java.lang.String">
+            <column name="EMAIL_ID" />
+        </property>
+    </class>
+</hibernate-mapping>

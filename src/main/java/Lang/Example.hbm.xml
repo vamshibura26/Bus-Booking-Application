@@ -1,0 +1,30 @@
+<?xml version="1.0"?>
+<!DOCTYPE hibernate-mapping PUBLIC "-//Hibernate/Hibernate Mapping DTD 3.0//EN"
+"http://hibernate.sourceforge.net/hibernate-mapping-3.0.dtd">
+<!-- Generated May 4, 2020 11:39:58 AM by Hibernate Tools 3.5.0.Final -->
+<hibernate-mapping>
+    <class name="Lang.Example" table="EXAMPLE">
+        <id name="Id" type="java.lang.Long" access="field">
+            <column name="ID" />
+            <generator class="assigned" />
+        </id>
+        <property name="FirstName" type="java.lang.String">
+            <column name="FIRSTNAME" />
+        </property>
+        <property name="LastName" type="java.lang.String">
+            <column name="LASTNAME" />
+        </property>
+        <property name="Phone" type="java.lang.String">
+            <column name="PHONE" />
+        </property>
+        <property name="Email" type="java.lang.String">
+            <column name="EMAIL" />
+        </property>
+        <property name="DOB" type="java.lang.String">
+            <column name="DOB" />
+        </property>
+        <property name="Password" type="java.lang.String">
+            <column name="PASSWORD" />
+        </property>
+    </class>
+</hibernate-mapping>
